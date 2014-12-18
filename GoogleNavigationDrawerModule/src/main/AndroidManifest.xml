@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.neokree.googlenavigationdrawer"
+    android:versionCode="1"
+    android:versionName="dev" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" >
+    </uses-sdk>
+
+</manifest>

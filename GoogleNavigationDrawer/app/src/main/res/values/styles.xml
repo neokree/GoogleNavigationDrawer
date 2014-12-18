@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="GoogleNavigationDrawerTheme.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/accent_material_light</item>
+        <item name="colorAccent">@color/primary_material_light</item>
+    </style>
+
+</resources>
