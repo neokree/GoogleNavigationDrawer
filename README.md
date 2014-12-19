@@ -4,9 +4,6 @@ GoogleNavigationDrawer
 Navigation Drawer Activity with Google design style and simplified methods<br />
 [![Donate](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZP25MK8XYDM62)
 
-If you want to have a navigation drawer with google style (Google Play Store, Google Books etc.) you are in the right place.<br /> 
-If you want a full screen navigation drawer that follow [Material Design guidelines](http://www.google.com/design/spec/components/lists.html#lists-specs) you can found it [here](https://github.com/neokree/MaterialNavigationDrawer)
-
 It requires 14+ API and android support v7 (Toolbar)<br>
 
 [Download example apk](https://raw.github.com/neokree/GoogleNavigationDrawer/master/example.apk)<br>
