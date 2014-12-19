@@ -232,15 +232,22 @@ public abstract class GoogleNavigationDrawer<Fragment> extends ActionBarActivity
 
         // change for default Fragment / support Fragment
         if(fragment instanceof android.app.Fragment) {
+            if(oldFragment instanceof android.support.v4.app.Fragment)
+                throw new RuntimeException("You should use only one type of Fragment");
+
+
             FragmentTransaction ft = getFragmentManager().beginTransaction();
-            if(oldFragment != null)
+            if(oldFragment != null && fragment != oldFragment)
                 ft.remove((android.app.Fragment) oldFragment);
 
             ft.replace(R.id.frame_container, (android.app.Fragment) fragment).commit();
         }
         else if(fragment instanceof android.support.v4.app.Fragment) {
+            if(oldFragment instanceof android.app.Fragment)
+                throw new RuntimeException("You should use only one type of Fragment");
+
             android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            if(oldFragment != null)
+            if(oldFragment != null && oldFragment != fragment)
                 ft.remove((android.support.v4.app.Fragment) oldFragment);
 
             ft.replace(R.id.frame_container, (android.support.v4.app.Fragment) fragment).commit();
