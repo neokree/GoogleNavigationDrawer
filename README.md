@@ -2,7 +2,7 @@ GoogleNavigationDrawer
 ======================
 
 Navigation Drawer Activity with Google design style and simplified methods<br />
-[![Donate](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZP25MK8XYDM62)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-GoogleNavigationDrawer-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1290)[![Donate](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZP25MK8XYDM62)
 
 It requires 14+ API and android support v7 (Toolbar)<br>
 
