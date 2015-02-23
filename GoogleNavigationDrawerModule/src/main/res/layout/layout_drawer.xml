@@ -22,61 +22,63 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <ImageView
-                android:id="@+id/user_cover"
-                android:layout_width="wrap_content"
-                android:layout_height="56dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
-                android:scaleType="centerCrop" />
-
-            <ImageView
-                android:id="@+id/user_photo"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="8dp" />
-
-            <LinearLayout
-                android:id="@+id/gradient"
-                android:layout_width="wrap_content"
-                android:layout_height="56dp"
-                android:layout_alignBottom="@+id/user_cover"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentRight="true"
-                android:gravity="center_vertical"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/user_nome"
+            <RelativeLayout
+                    android:id="@+id/account"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="72dp"
-                    android:textSize="16sp"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-                    android:textStyle="bold"
-                    android:textColor="@android:color/white"/>
-
-                <TextView
-                    android:id="@+id/user_email"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/user_cover"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="72dp"
-                    android:textSize="14sp"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@android:color/white"/>
+                    android:layout_height="56dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/user_photo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp" />
+                <LinearLayout
+                    android:id="@+id/gradient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="56dp"
+                    android:layout_alignBottom="@+id/user_cover"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
 
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/user_nome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="72dp"
+                        android:textSize="16sp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
 
+                    <TextView
+                        android:id="@+id/user_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="72dp"
+                        android:textSize="14sp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@android:color/white"/>
+
+                </LinearLayout>
+            </RelativeLayout>
             <LinearLayout
                 android:id="@+id/sections"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_below="@+id/user_cover"
+                android:layout_below="@+id/account"
                 android:layout_marginBottom="8dp"
                 android:layout_marginTop="8dp"
                 android:orientation="vertical" >
