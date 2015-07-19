@@ -8,7 +8,8 @@ It requires 14+ API and android support v7 (Toolbar)<br>
 
 [Download example apk](https://raw.github.com/neokree/GoogleNavigationDrawer/master/example.apk)<br>
 
-If you are using GoogleNavigationDrawer in your app and would like to be listed here, please let me know via [email](mailto:neokree@gmail.com)! <br>
+## IMPORTANT NOTICE
+This library is no longer supported.<BR>If someone wants to keep alive this library please contact me in private [neokree@gmail.com](mailto:neokree@gmail.com)
 
 ### How to add to your project  
 In your Activity...
