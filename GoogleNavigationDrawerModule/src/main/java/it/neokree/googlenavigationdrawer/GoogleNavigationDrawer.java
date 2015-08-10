@@ -168,7 +168,8 @@ public abstract class GoogleNavigationDrawer<Fragment> extends ActionBarActivity
         if(accountManager.size() > 0) {
             currentAccount = accountManager.get(0);
             notifyAccountDataChanged();
-        }
+        } else if (accountManager.size() <= 0)
+            findViewById(R.id.account).setVisibility(View.GONE);
 
         // init section
         GSection section = sectionList.get(0);
